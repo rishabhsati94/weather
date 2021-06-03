@@ -1,0 +1,16 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "this is create by rishabh",
+  "main": "index.js",
+  "scripts": {
+    "start": "node component/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rishabhsati94@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  }
+}

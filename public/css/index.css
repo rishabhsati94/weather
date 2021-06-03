@@ -1,0 +1,56 @@
+/* Navbar */
+@import "./navbar.css";
+@import "./footer.css";
+
+/* Header  */
+.header-part-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header-part-left p{
+    font-size: 2rem;
+}
+
+.header-part-left h1{
+    font-size: 4rem;
+    margin: 1rem 0 4rem 0;
+    text-transform: capitalize;
+}
+
+.header-part-left .clr{
+    color: #0097e6;
+}
+
+.header-part-left button{
+    border: none;
+    padding: 0.8rem 1.8rem;
+    font-size: 1.4rem;
+    border-radius: 1.8rem;
+    text-transform: uppercase;
+    color: #0097e6;
+    box-shadow: 0 8px 0 -6px #000;
+}
+
+.header-part-left button:hover{
+
+    color: #fff;
+    background-color: #000;
+}
+
+
+
+@media (max-width: 1024px) and (min-width:767px){
+
+    .header-part-left{
+        margin: 10rem 10rem;
+        width: 65vw;
+    }
+    
+
+    .header-part-right{
+        margin: 10rem 10rem;
+        width: 65vw;
+    }
+}
+

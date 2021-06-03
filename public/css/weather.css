@@ -1,0 +1,130 @@
+@import "./navbar.css";
+@import "./footer.css";
+
+/* Header */
+
+/* input and search button style code*/
+.tempForm{
+    width: 60%;
+    position: relative;
+    margin: 5rem auto 6rem;
+}
+
+.tempForm input[type="text"]{
+    width: 100%;
+    padding: 3rem 4rem;
+    background: #5e5f66;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 2rem;
+    border-radius: 5rem;
+}
+
+::placeholder{
+    color: #fff;;
+}
+
+.tempForm input[type="submit"]{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    border-radius: 4rem;
+    background: #009ad8;
+    padding: 0px 4rem;
+    color: white;
+    font-size: 1.8rem;
+    outline: none;
+}
+
+.tempForm input[type="submit"]:hover{
+    color: #009ad8;
+    background-color: #fff;
+}
+
+/* temp details show here*/
+
+.tempInformation{
+    width: 50rem;
+    margin: auto;
+    min-height: 40rem;
+    background-color: #282828;
+    border-radius: 5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.toplayer{
+    width: 100%;
+    background-color: #65666c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    padding: 4px 0px;
+}
+
+.toplayer p{
+    color: #fff;
+    padding: 2rem;
+    font-size: 3rem;
+} 
+
+
+
+.mainLayer{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.mainLayer #city_Name{
+    padding: 1rem 0;
+    color: #bfc1c8;
+    font-size: 3rem;
+}
+
+
+
+.mainLayer .middleLayer{
+    display: flex;
+    justify-content: space-around;
+    height: 22rem;
+}
+
+#temp{
+    color:  white;
+}
+
+.mainLayer .middleLayer p,
+.mainLayer .middleLayer .fa{
+    font-size: 6rem;
+}
+
+.fa{
+    color: #009ad8;
+}
+
+sup{
+    font-size: 6rem;
+    margin-top: -2rem;
+}
+
+.data_hide{
+    visibility: hidden;
+    transition: all 0.3s linear;
+}
+
+@media (max-width:768px){
+
+    .tempForm{
+        width: auto;
+    }
+
+    .tempInformation{
+        width: auto;
+        margin-bottom: 4rem;
+    }
+}
